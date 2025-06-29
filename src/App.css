@@ -1,0 +1,18 @@
+body {
+  background-color: rgba(2, 25, 29, 1);
+  position: relative;
+  place-items: center;
+}
+body.no-page-body {
+  background-color: rgb(1, 146, 146);
+  position: relative;
+  padding: 100px;
+}
+body.homepage-body {
+  background-image: url("./assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover;
+  min-height: 100vh;
+  margin: 0;
+}
